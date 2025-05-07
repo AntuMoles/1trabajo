@@ -95,7 +95,9 @@ async function updateProduct(id, updateData) {
   }
 }
 
+
 // DELETE - Eliminar un producto
+
 async function deleteProduct(id) {
   try {
     const deletedProduct = await Product.findByIdAndDelete(id);
