@@ -114,6 +114,7 @@ async function deleteProduct(id) {
 }
 
 // 4. Función principal para probar las operaciones CRUD
+
 async function runCrudOperations() {
   await connectToDatabase();
   
