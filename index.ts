@@ -164,7 +164,9 @@ async function runCrudOperations() {
   } catch (error) {
     console.error('Error en las operaciones CRUD:', error);
   } finally {
+    
     // Cerrar la conexión a la base de datos
+   
     await mongoose.connection.close();
     console.log('\nConexión a MongoDB cerrada');
   }
